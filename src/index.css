@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{
-    --tw-bg-opacity:1;
-    background-color:rgba(255,255,255,var(--tw-bg-opacity));
-    --tw-text-opacity:1;
-    color:black;
-}
+
+.drawer-side a.active {
+    color: white;
+  }
+  .drawer-side a {
+    background-color: transparent;
+  }
